@@ -1,0 +1,72 @@
+#grid960, .grid960 {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+	float: left;
+	margin: 0px 10px;
+	overflow: hidden;
+}
+
+.col-1 { width: 60px; }
+.col-2 { width: 140px; }
+.col-3 { width: 220px; }
+.col-4 { width: 300px; }
+.col-5 { width: 380px; }
+.col-6 { width: 460px; }
+.col-7 { width: 540px; }
+.col-8 { width: 620px; }
+.col-9 { width: 700px; }
+.col-10 { width: 780px; }
+.col-11 { width: 860px; }
+.col-12 { width: 940px; }
+
+.spc-1,
+.spc-2,
+.spc-3,
+.spc-4,
+.spc-5,
+.spc-6,
+.spc-7,
+.spc-8,
+.spc-9,
+.spc-10,
+.spc-11,
+.spc-12 {
+	position: absolute;
+}
+.spc-1 { margin-left: 10px; }
+.spc-2 { margin-left: 90px; }
+.spc-3 { margin-left: 170px; }
+.spc-4 { margin-left: 250px; }
+.spc-5 { margin-left: 330px; }
+.spc-6 { margin-left: 410px; }
+.spc-7 { margin-left: 490px; }
+.spc-8 { margin-left: 570px; }
+.spc-9 { margin-left: 650px; }
+.spc-10{ margin-left: 730px; }
+.spc-11{ margin-left: 810px; }
+.spc-12{ margin-left: 890px; }
+
+#over-grid
+{
+	position: absolute;
+	width: 100%;
+	background: url(../images/grid.png) repeat-y top center;
+	top: 0px;
+	bottom: 0px;
+	z-index: 9999;
+	display: none;
+}  

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+<script type="text/javascript">
+	document['onkeydown'] = eventHandler;
+		
+	function eventHandler (e) {
+		var event = e || window.event;
+		if( ( event.altKey && event.keyCode === 186 ) || ( event.altKey && event.keyCode === 59 ) )
+		{
+			if( document.getElementById('over-grid').style.display != 'block' ) {
+				document.getElementById('over-grid').style.display = 'block';
+			}else{
+				document.getElementById('over-grid').style.display = 'none';
+			}
+		}
+	}
+</script>  
+</head>
+
+<body>
+<div id="grid960">
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <br />
+	<div class="col-4"></div>
+    <div class="col-8"></div>
+</div>
+<div id="over-grid"></div>
+</body>
+</html>
